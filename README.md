@@ -16,9 +16,9 @@ Package is based on tidyverse and examples utilise widely tidyverse
 programming style. The functions are designed with ICD codes in mind,
 but can be used with any kind of string formatted codes and are thus not
 necessarily limited to healthcare data. Users are allowed to make their
-own definitions of code classifiers, so the package suits needs of
-different countries having their own code definitions of disease codes
-for example.
+own definitions of code classifiers, so the package suits for the needs
+of different countries having their own code definitions of disease
+codes for example.
 
 Authors: [Juho Kopra](https://github.com/jukop), [Jani
 Miettinen](https://github.com/janikmiet), [Reijo
@@ -79,7 +79,7 @@ sample_data %>%
     #> To cite package 'regstudies' in publications use:
     #> 
     #>   Juho Kopra, Jani Miettinen and Reijo Sund (2020). regstudies: Tools
-    #>   for analyzing register data. R package version 0.5.1.
+    #>   for analyzing register data. R package version 0.5.2.
     #>   https://github.com/pohjois-savon-tietoallas/regstudies
     #> 
     #> A BibTeX entry for LaTeX users is
@@ -88,7 +88,7 @@ sample_data %>%
     #>     title = {regstudies: Tools for analyzing register data},
     #>     author = {Juho Kopra and Jani Miettinen and Reijo Sund},
     #>     year = {2020},
-    #>     note = {R package version 0.5.1},
+    #>     note = {R package version 0.5.2},
     #>     url = {https://github.com/pohjois-savon-tietoallas/regstudies},
     #>   }
 
@@ -101,12 +101,12 @@ Elixhauser and Charlson comorbidity indices. The Elixhauser and Charlson
 classifications for ICD-9-CM and ICD-10 versions were originally
 implemented as regular expressions in
 [`comorbidity`](https://ellessenne.github.io/comorbidity/) by Gasparini
-(2018). They have been extended based on Pylvänäinen et al. (2019) for
+(2018). They have been extended based on Pylvänäinen et al. (2019) for
 Social Security Institution (SII) entitlement and medication
 reimbursement codes. The key references for the Elixhauser and Charlson
-comorbidity indices are Charlson et al. (1987), Elixhauser et al. (1998)
-and Quan et al. (2015). The scores utilised in the same tables are based
-on van Walraven et al. (2009) and Quan et al. (2015). All the source
+comorbidity indices are Charlson et al. (1987), Elixhauser et al. (1998)
+and Quan et al. (2015). The scores utilised in the same tables are based
+on van Walraven et al. (2009) and Quan et al. (2015). All the source
 code in `regstudies` are written by original authors.
 
   - Charlson, Pompei, Ales & MacKenzie (1987) *A new method of
